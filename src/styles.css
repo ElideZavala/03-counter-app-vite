@@ -1,0 +1,8 @@
+html,
+body {
+    place-content   : center;
+    font-family     : 'Roboto', sans-serif;
+    display         : grid;
+    color           : #fff;
+    background-color: #21232a;
+}
