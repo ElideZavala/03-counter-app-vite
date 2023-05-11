@@ -5,4 +5,14 @@ body {
     display         : grid;
     color           : #fff;
     background-color: #21232a;
+    text-align      : center;
+}
+
+button {
+    padding         : 10px;
+    border          : none;
+    border-radius   : 8px;
+    background-color: lightcoral;
+    margin          : 1rem;
+    cursor          : pointer;
 }
