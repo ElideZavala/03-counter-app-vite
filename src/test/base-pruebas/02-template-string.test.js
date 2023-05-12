@@ -1,0 +1,1 @@
+describe('Prubas en el archivo 02-template-string.test.js', () => {})
