@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import { Otro } from './otro';
+// import { Otro } from "./otro";
 // import App from './HelloWorldApp';
 import "./styles.css";
 import CouterApp from "./couterApp";
@@ -11,7 +11,7 @@ const value = 10;
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <Otro/> */}
+    {/* <Otro title="Hola soy Goku" /> */}
     <CouterApp value={value} />
   </React.StrictMode>
 );

@@ -1,4 +1,4 @@
-
+/* eslint-disable no-undef */
 describe('Pruebas en <DemoComponent />', () => {
     test('Esta prueba no debe falllar', () => {
 

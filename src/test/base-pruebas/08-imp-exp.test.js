@@ -3,7 +3,7 @@ import heroes from "../../data/heroes";
 
 /* eslint-disable no-undef */
 describe('Pruebas en el archivo 08-imp-exp.test.js', () => {
-    
+    console.log(heroes);
     test('debe retornar un heroe por id', () => {
         const id = 1;
         const hero = getHeroeById(id);
