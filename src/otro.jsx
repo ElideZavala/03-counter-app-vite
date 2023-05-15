@@ -25,8 +25,9 @@ export const Otro = ({ title, subtitule, name }) => {
 
   return (
     <>
-      <h1>{name}</h1>
-      <h2>{title}</h2>
+      <h1 data-testid="test-title">{title}</h1>
+      <h3>{name}</h3>
+      <p>{subtitule}</p>
       <p>{subtitule}</p>
       <ul>
         {array.map((item, index) => (
@@ -53,7 +54,7 @@ Otro.propTypes = {
 };
 
 Otro.defaultProps = {
-  title: "No tenemos nigun titulo",
+  title: "",
   subtitule: "No tenemos nigun subtitulo",
   name: "Elide Zavala Vinagre",
 };

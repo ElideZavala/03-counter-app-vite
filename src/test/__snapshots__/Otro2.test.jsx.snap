@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Otro/> debe de hacer match con el snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-title"
+  >
+    Hola soy Goku
+  </h1>
+  <h3>
+    Elide Zavala Vinagre
+  </h3>
+  <p>
+    No tenemos nigun subtitulo
+  </p>
+  <p>
+    No tenemos nigun subtitulo
+  </p>
+  <ul>
+    <li>
+      1
+    </li>
+    <li>
+      2
+    </li>
+    <li>
+      3
+    </li>
+    <li>
+      4
+    </li>
+    <li>
+      5
+    </li>
+    <li>
+      6
+    </li>
+    <li>
+      7
+    </li>
+    <li>
+      8
+    </li>
+    <li>
+      9
+    </li>
+    <li>
+      10
+    </li>
+  </ul>
+  <ul>
+    <li>
+      <p>
+        Elide
+      </p>
+      <p>
+        30
+      </p>
+      <p>
+        Mexico
+      </p>
+    </li>
+    <li>
+      <p>
+        Maria
+      </p>
+      <p>
+        25
+      </p>
+      <p>
+        Venezuela
+      </p>
+    </li>
+  </ul>
+</div>
+`;
