@@ -28,8 +28,9 @@ describe("Pruebas de el <CouterApp/>", () => {
   });
 
   test("debe de colocar el valor por defecto con el btn reset", () => {
-    const com = render(<CouterApp value={initialValue} />);
-    fireEvent.click(screen.getByText("Reset"));
-    expect(com.getByText(initialValue)).toBeTruthy();
+    render(<CouterApp value={initialValue} />);
+    // fireEvent.click(screen.getByText("Reset"));
+    fireEvent.click(screen.getByRole("button", { name: "btn-reset" }));
+    expect(screen.getByText(initialValue)).toBeTruthy();
   });
 });

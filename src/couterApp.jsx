@@ -27,7 +27,9 @@ const CouterApp = ({ value = 10 }) => {
         <span>{counter}</span>
       </h1>
       <button onClick={() => setCounter(counter + 1)}>+1</button>
-      <button onClick={() => setCounter(value)}>Reset</button>
+      <button aria-label="btn-reset" onClick={() => setCounter(value)}>
+        Reset
+      </button>
       <button onClick={() => setCounter(counter - 1)}>-1</button>
       <button onClick={handle}>Evento</button>
     </>
